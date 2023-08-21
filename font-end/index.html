@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>PacMan game senior</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: black">
+    <label
+      for="score"
+      id="scoreLabel"
+      style="
+        margin-left: 30%;
+        margin-right: 0;
+        margin-top: 0;
+        color: aliceblue;
+        font-size: 35px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+      "
+      >Score : 0</label
+    >
+    <label
+      for="score"
+      id="scoreLabel2"
+      style="
+        margin-left: 30%;
+        margin-right: 0;
+        margin-top: 0;
+        color: aliceblue;
+        font-size: 35px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+      "
+      >Score 2 : 0</label
+    >
+
+    <div class="wrap">
+      <canvas
+        id="myCanvas"
+        width="1200px"
+        height="1200px"
+        style="
+          border: 2px solid;
+          border-color: #1e1fe4;
+          margin-left: 30%;
+          margin-top: 1px;
+        "
+      ></canvas>
+      <label id="labelPM" for="">Pac-Man Multiplayer</label>
+      <button id="cgb">Create Game</button>
+      <label id="labelOR" for="">OR</label>
+      <h1 id="GCDH">Your Game Code is: <span id="displayGameCode"></span></h1>
+      <input
+        type="text"
+        id="gameCodeInput"
+        name="gameCodeInput"
+        placeholder="Enter Game Code"
+      /><br /><br />
+      <button id="jgb">Join Game</button>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"
+      integrity="sha512-xbQU0+iHqhVt7VIXi6vBJKPh3IQBF5B84sSHdjKiSccyX/1ZI7Vnkt2/8y8uruj63/DVmCxfUNohPNruthTEQA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+.wrap,
+.wrap canvas {
+    /* width: 1200;
+    height: 1200px;
+    margin-left : 30%; 
+    margin-top : 2%; */
+}
+
+.wrap {
+    position: relative
+
+}
+
+.wrap>* {
+    position: absolute
+}
+
+#gameCodeInput {
+    top: 600px;
+    left: 1320;
+    width: 350px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 2px;
+}
+
+input[type="text"] {
+    font-size: 24px;
+}
+
+#labelPM {
+        top: 430px;
+        left: 1350;
+        width: 350px;
+        height: 60px;
+color: white;
+font-size: xx-large;
+    }
+
+#labelOR{
+        top: 560px;
+            left: 1470;
+            width: 350px;
+            height: 60px;
+            color: white;
+            font-size: xx-large;
+}
+
+#cgb {
+        top: 500px;
+        left: 1320;
+        width: 350px;
+        height: 50px;
+        font-size: x-large;
+}
+
+#jgb {
+        top: 700px;
+            left: 1320;
+            width: 350px;
+            height: 50px;
+            font-size: x-large;
+}
+
+
+#GCDH {
+    top: 360px;
+    left: 1320;
+    width: 480px;
+    height: 60px;
+    color: white;
+    font-size: xx-large;
+}
+#displayGameCode{
+        top: 360px;
+        left: 1500;
+        width: 350px;
+        height: 60px;
+        color: white;
+        font-size: xx-large;
+    }
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
