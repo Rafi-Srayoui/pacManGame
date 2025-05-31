@@ -37,7 +37,7 @@ Create Game: Click "Create Game" to start a new session. A game code will be sho
 
 Join Game: Enter the game code in another tab/device to join as Player 2.
 
-Controls:
+### Controls:
 
 Player 1: W A S D
 
@@ -45,7 +45,7 @@ Player 2: Arrow keys
 
 Goal: Eat all the pellets and avoid ghosts. Power pellets allow you to eat ghosts temporarily.
 
-Installation:
+### Installation:
 
 Clone the repo and run npm install in the backend. Open the front-end index.html in a browser using live server.
 
