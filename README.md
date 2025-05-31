@@ -49,7 +49,7 @@ Goal: Eat all the pellets and avoid ghosts. Power pellets allow you to eat ghost
 
 Clone the repo and run npm install in the backend. Open the front-end index.html in a browser using live server.
 
-Pictures:
+### Pictures:
 ![image](https://github.com/user-attachments/assets/a7fc5505-7140-4c25-9b73-812dcd7d3d61)
 ![image](https://github.com/user-attachments/assets/06d149ea-c329-48a7-96ce-282068ae31f9)
 ![image](https://github.com/user-attachments/assets/531bc65c-f110-4ecb-9a31-91c938a8bc78)
